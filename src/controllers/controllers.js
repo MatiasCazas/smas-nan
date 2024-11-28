@@ -10,7 +10,6 @@ exports.getData = async (req, res) => {
 
 exports.fetchAndSaveExternalData = async (req, res) => {
     const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
-    console.log(response)
     await DataModel.insertMany(response.data);
     res.json({ message: 'Datos guardados' });
 };
