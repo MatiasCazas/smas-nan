@@ -12,6 +12,38 @@ npm i
 docker-compose up -d
 ```
 
+## ** Dependencias del proyecto**
+
+- express: Framework para crear aplicaciones web y APIs.
+
+```bash
+npm install express
+```
+
+- mongoose: Libreria de modelado de datos de objetos (ODM) para trabajar con MongoDB.
+
+```bash
+npm install mongoose
+```
+
+- axios: Libreria para realizar peticiones HTTP.
+
+```bash
+npm install axios
+```
+
+- csv-writter: Libreria para generar archivos CSV.
+
+```bash
+npm install csv-writter
+```
+
+- dotenv: Herramienta para el manejo de variables de entorno:
+
+```bash
+npm install dotenv
+```
+
 ## **Características**
 - Consumo de la API externa [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts).
 - Persistencia de datos usando MongoDB.
